@@ -69,3 +69,11 @@ div.circles {
   
     margin-left: -140px;
   }
+
+  #resume {
+    position: relative;
+    left: 444px;
+    top: -760px;
+    width: 200px;
+    z-index: 80;
+  }
