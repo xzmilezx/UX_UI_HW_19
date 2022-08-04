@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title> My Art Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/myArt.css" rel="stylesheet" type="text/css">
+
+    <script src="javascript/myArt.js" > </script>
+</head>
+
+<body onload="loadImage()">
+
+    <header class="navigation">
+        <div>
+            <img class="navbg" src="images/Header.svg">
+        </div>
+        <div class="inline-block logo">
+            <a href="/index.html"><img class="logo" src="images/logo.svg"></a>
+        </div>
+        <div class="mobileMenu">
+            <img class="menu" src="images/menu.svg">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li class="inline-block"> <button class="button headerbtn"
+                        onclick="document.location.href='aboutMe.html'">ABOUT ME</button></li>
+                <li class="inline-block"> <button class="button headerbtn"
+                        onclick="document.location.href='myWork.html'">MY WORK </button></li>
+                <li class="inline-block"> <button class="button glowBtn headerbtn"
+                        onclick="document.location.href='myArt.html'">MY ART </button></li>
+                <li class="inline-block"> <button class="button headerbtn"
+                        onclick="document.location.href='contactMe.html'">CONTACT ME </button></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h1>
+                MY ART
+            </h1>
+
+            <!-- <div class="dots">
+                <ul>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(0)"><img class="activeDot" src="images/dotActive.svg"></li>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(1)"><img class="activeDot" src="images/dotActive.svg" ></li>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(2)"><img class="activeDot" src="images/dotActive.svg" ></li>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(3)"><img class="activeDot" src="images/dotActive.svg" ></li>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(4)"><img class="activeDot" src="images/dotActive.svg" ></li>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(5)"><img class="activeDot" src="images/dotActive.svg" ></li>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(6)"><img class="activeDot" src="images/dotActive.svg" ></li>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(7)"><img class="activeDot" src="images/dotActive.svg" ></li>
+                    <li style="display:inline"> <img class="dot" src="images/dotDefault.svg" onclick="loadImage(8)"><img class="activeDot" src="images/dotActive.svg" ></li>
+
+                </ul>
+            </div> -->
+          
+        </div>
+
+        <div class="navArrows">
+            <ul>
+                <li class="arrow"> <img id="lArrow" style="width:50px;" src="images/leftArrow.svg" onclick="back()"></li>
+                <li class="arrow"> <img id="rArrow" style="width:50px;" src="images/rightArrow.svg" onclick="next()"></li>
+            </ul>
+        </div>
+        <div class="artCircles">
+            <img style="width:550px;" src="images/artCircles.svg">
+        </div>
+      <div class="artWorks">
+            <img id="art" style="width:530px;" src="images/myArt/kitty1.svg"> 
+            <div class ="artText">
+            <p class ="imgText" id="contentText">fadsfasdfladsf </p>
+            </div>
+      </div>
+      
+      <div></div>
+    
+
+    </section>
+
+    <footer>
+        <div>
+            <img id="footbg" src="images/footerLine.svg">
+        </div>
+        <footer class="footerBlock">
+            <ul>
+                <li id="bē" class="inline-block"> <img src="images/bē.svg"></li>
+                <li id="linkedin" class="inline-block"> <img src="images/linkedIn.svg"></li>
+                <li id="github" class="inline-block"> <img src="images/github.svg"> </li>
+                <li id="emailMe" class="inline-block"> <button class="button">EMAIL ME </button> </li>
+            </ul>
+        </footer>
+
+</body>
+
+</html>
