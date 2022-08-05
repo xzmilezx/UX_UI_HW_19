@@ -1,79 +1,108 @@
 p.p1 {
-    left: -70px;
-    top: -650px;
-  }
-  
-  p.p2 {
-    left: -75px;
-    top: -690px;
-  }
-  
-  p.p3 {
-    left: 10px;
-    top: -730px;
-  }
-  
-  p.p4 {
-    left: 35px;
-    top: -770px;
-  }
-  
-  p.p5 {
-    left: 131px;
-    top: -810px;
-  }
-  
-  h1 {
-    position: relative;
-    left: 381px;
-    top: 300px;
-  
-    font-family: 'Yusei Magic';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 14px;
-  
-  
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.05em;
-  
-    color: #FFCBF0;
-    margin: 0;
-  }
-  
-  h2 {
-    position: relative;
-    left: 312px;
-    top: 312px;
-  
-    font-family: 'Yusei Magic';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 48px;
-    /* or 75% */
-  
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FCFEFF;
-    margin: 0;
-  }
+  text-align: center;
+position: relative;
+left: 200px;
+  top: -720px;
+}
 
-div.circles {
-    text-align: center;
-    margin-top: 98px;
-  
-    margin-left: -140px;
-  }
+p.p2 {
+  position: relative;
+  left: 210px;
+    top: -740px;
+}
 
-  #resume {
-    position: relative;
-    left: 444px;
+p.p3 {
+  position: relative;
+  left: 280px;
     top: -760px;
-    width: 200px;
-    z-index: 80;
-  }
+}
+
+p.p4 {
+  position: relative;
+  left: 310px;
+    top: -780px;
+}
+
+p.p5 {
+  left: 360px;
+  top: -800px;
+}
+p.p6 {
+  left: 440px;
+  top: -820px;
+}
+
+p {
+  position: relative;
+  font-family: 'Yusei Magic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+div.wrapper {
+  width: 1043px;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  left: 33px;
+  top: -700px;
+
+  font-family: 'Yusei Magic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 14px;
+
+
+  letter-spacing: 0.05em;
+
+  color: #FFCBF0;
+  margin: 0;
+}
+
+h2 {
+  position: relative;
+  top: -680px;
+  text-align: center;
+  left: 10px;
+
+  font-family: 'Yusei Magic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 48px;
+
+  color: #FCFEFF;
+  margin: 0;
+}
+
+.circles {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.resumebtn {
+  position: relative;
+  text-align: center;
+  left: 85px;
+  top: -160px;
+  z-index: 80;
+}
+
+.aboutPic {
+  text-align: center;
+  left: 20%;
+  position: relative;
+  top: 40px;
+  z-index: 70;
+
+}
