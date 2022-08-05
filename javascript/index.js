@@ -6,7 +6,12 @@ function moveImg() {
     $('.tuProfile').animate({width: '330px'}, 2000);
     $('.tuPic').animate({top: '-550px',left:'10%'}, 2000);
     $('.adjText').animate({left: '125px', top:'-830px'}, 2000);
+}
 
+function showAboutMe() {
+    console.log("here")
+    var aboutMe = document.getElementsByClassName("homeAboutMe");
+    aboutMe.classList.add("img.menu");
 }
 
 // $( document ).ready( moveImg );

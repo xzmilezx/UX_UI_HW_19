@@ -72,7 +72,6 @@ section.heroImg {
 
 img.logo {
   position: fixed;
-  /* left: 7.36%; */
   right: 74.28%;
   top: 0%;
   bottom: 0.74%;
@@ -148,7 +147,6 @@ button.glowBtn {
   text-align: center;
   position: relative;
   top: 125px;
-  /* z-index: 40;  */
 }
 
 .tuPic {
@@ -164,9 +162,6 @@ button.glowBtn {
   top: -920px;
   left: -600px;
   z-index: 40; 
-  /* position: absolute;
-  top:28%;
-  left:0%; */
 }
 .pham {
   text-align: center;
@@ -192,6 +187,13 @@ left:500px;
   
   color: #FCFEFF;}
 
+  .homeAboutMe {
+    text-align: center;
+    position: relative;
+    top: -667px;
+    left: 0px;
+    z-index: 40; 
+  }
 
 @media only screen and (max-width: 800px) {
   .logo {
@@ -207,31 +209,15 @@ left:500px;
   }
 
 }
-
-
-/* 
-.dot:hover {
-  color: white;
-  transform: scale(1.2);
-  background-color: #fff;
-  border: 2px solid red;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  margin: 0;
-  padding: 0;
+@keyframes aboutMeFadeIn {
+  0%    { opacity: 0; }
+  25%   { opacity: 0; }
+  50%   { opacity: 0.5; }
+  75%  { opacity: 0.75; }
+  100%  { opacity: 1; }
 }
 
-.dotClicked {
-  color: white;
-  transform: scale(1.2);
-  background-color: #fff;
-  border: 1px solid red;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  margin: 0;
-  padding: 0;
-} */
-
+.homeAboutMe {
+  animation: aboutMeFadeIn 5s;
+}
 
