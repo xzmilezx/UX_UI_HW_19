@@ -1,13 +1,13 @@
 const slides = [
-    "images/myArt/baukehh2.svg", 
-    "images/myArt/customcut2.svg", 
-    "images/myArt/dress1.svg", 
-    "images/myArt/icompuTek 1.svg", 
-    "images/myArt/kitty1.svg",
+    "images/myArt/baukehh.svg", 
+    "images/myArt/customcut.svg", 
+    "images/myArt/dress.svg", 
+    "images/myArt/icompuTek.svg", 
+    "images/myArt/kitty.svg",
     "images/myArt/Shepherd.svg",
-    "images/myArt/owl2.svg", 
+    "images/myArt/owl.svg", 
     "images/myArt/rooted.svg", 
-    "images/myArt/tree21.svg", 
+    "images/myArt/mtree.svg", 
     "images/myArt/vine.svg"];
 const texts = [
     "Logo design for Baukeh <br> Photography",
