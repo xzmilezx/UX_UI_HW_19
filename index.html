@@ -15,9 +15,12 @@
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <!-- <link href="css/aboutMe.css" rel="stylesheet" type="text/css"> -->
 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="javascript/index.js"> </script>
+  
 </head>
 
-<body>
+<body onload="moveImg()">
 
   <header class="navigation">
     <div>
@@ -45,9 +48,9 @@
   </header>
   <section class="heroImg">
     <div class="logocircles">  <img id="logoCircles" style="width:600px;"src="images/logocircles (1).svg"> </div>
-    <div class="tuPic"> <img id="tuPic" style="width:530px;"src="images/pictureL.svg"> </div>
-    <div class="tu">  <img id="tu" style="height:70px;" src="images/tu.svg"> </div>
-    <div class="pham">  <img id="pham" style="height:100px;" src="images/pham.svg"> </div>
+    <div class="tuPic"> <img class="tuProfile" style="width:530px;"src="images/pictureL.svg"> </div>
+    <div class="tu">  <img class="tuImg" style="height:70px;" src="images/tu.svg"> </div>
+    <div class="pham">  <img class="phamImg" style="height:100px;" src="images/pham.svg"> </div>
     <div class="adjText" id="designer"> CREATIVE UX/UI DESIGNER </div>
     <!-- <div class="adjText" id="thinker"> INNOVATIVE THINKER </div> 
      <div class="adjText" id="solver"> PROBLEM SOLVER </div> -->

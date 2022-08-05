@@ -159,34 +159,36 @@ button.glowBtn {
 }
 
 .tu {
-  text-align: left;
+  text-align: center;
   position: relative;
-  top: -960px;
+  top: -920px;
+  left: -600px;
   z-index: 40; 
   /* position: absolute;
   top:28%;
   left:0%; */
 }
 .pham {
-  text-align: left;
+  text-align: center;
   position: relative;
-  top: -600px;
+  top: -560px;
+  left: -500px;
   z-index: 40; 
 }
 
 .adjText { 
   position: relative;
-right:0%;
-  top: -666px;
+left:500px;
+  top: -650px;
   z-index: 40; 
   font-family: 'Yusei Magic';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 22px;
+  line-height: 22px;
   /* display: flex; */
   align-items: right;
-  /* text-align: center; */
+  text-align: center;
   
   color: #FCFEFF;}
 
