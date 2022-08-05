@@ -17,7 +17,11 @@
     text-align: center;
     border: solid 3px gray;
     background-color: #142F46;
+}
 
+.flexChildren:hover {
+transform: scale(1.05);
+border: 7px solid #FFCBF0;
 }
 
 h1 {
