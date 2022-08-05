@@ -47,23 +47,9 @@ function loadImage(indx) {
     var imagePath = slides[indx];
     var imgElement = document.getElementById("art");
     imgElement.src=imagePath;
-    // updateDot(indx);
     updateText(indx) 
 }
 
-// function updateDot(indx) {
-//     const dots = document.getElementsByClassName("dot");
-//     const activeDots = document.getElementsByClassName("activeDot");
-
-//     for (var i = 0; i < dots.length; i++) {
-//         if (i == indx) {
-//             // dots[i].classList.add("dotClicked");
-//             activeDots[i].classList.add("show");
-//         } else {
-//             activeDots[i].classList.remove("show");
-//         }
-//     }
-// }
 
 function updateText(indx) {
     const textElement = document.getElementById("contentText");

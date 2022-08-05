@@ -9,9 +9,8 @@ function moveImg() {
 }
 
 function showAboutMe() {
-    console.log("here")
+    // console.log("here")
     var aboutMe = document.getElementsByClassName("homeAboutMe");
     aboutMe.classList.add("img.menu");
 }
 
-// $( document ).ready( moveImg );
