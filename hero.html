@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> UX/UI HOMEWORK 20</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <script src="JS/index.js"> </script>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example3">
+
+    <header class="navigation">
+        <div>
+            <img class="navbg" src="images20/headerlines2.svg">
+
+        </div>
+        <div class="inline-block logo">
+            <a href="index.html"><img class="logo" src="images20/logo.svg"></a>
+        </div>
+        <div class="mobileMenu">
+            <img class="menu" src="images20/menu.svg">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li class="inline-block"> <button class="button headerbtn"
+                        onclick="document.location.href='aboutMe.html'">ABOUT
+                        ME</button></li>
+                <li class="inline-block"> <button class="button headerbtn"
+                        onclick="document.location.href='myWork.html'">MY
+                        WORK </button></li>
+                <li class="inline-block"> <button class="button headerbtn"
+                        onclick="document.location.href='myArt.html'">MY ART
+                    </button></li>
+                <li class="inline-block"> <button class="button headerbtn"
+                        onclick="document.location.href='contactMe.html'">CONTACT ME </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Use BOOTSTRAP 4's SCROLLSPY COMPONENT -->
+
+    <div class="flexBox">
+
+        <div class="flexNav">
+            <nav id="navbar-example3" class="navbar navbar-light">
+                <a class="navbar-brand" href="#"> </a>
+                <nav class="nav nav-pills flex-column">
+
+                    <a class="nav-link" href="#item-1">INTRODUCTION</a>
+                    <nav class="nav nav-pills flex-column">
+                        <!-- <a class="nav-link ml-3 my-1" href="#item-1-1">Overview</a>
+                        <a class="nav-link ml-3 my-1" href="#item-1-2"> About H.E.R.O.</a>
+                        <a class="nav-link ml-3 my-1" href="#item-1-3"> The Problem</a>
+                        <a class="nav-link ml-3 my-1" href="#item-1-4"> The Goal</a> -->
+                    </nav>
+
+                    <a class="nav-link" href="#item-2">RESEARCH</a>
+                    <nav class="nav nav-pills flex-column">
+                        <!-- <a class="nav-link ml-3 my-1" href="#item-2-1">Objectives</a>
+                        <a class="nav-link ml-3 my-1" href="#item-2-2"> Key Insights </a>
+                        <a class="nav-link ml-3 my-1" href="#item-2-3"> Competitor Analysis</a> -->
+                    </nav>
+
+                    <a class="nav-link" href="#item-3">DEFINTION</a>
+                    <nav class="nav nav-pills flex-column">
+                        <!-- <a class="nav-link ml-3 my-1" href="#item-3-1"> User Persona</a>
+                        <a class="nav-link ml-3 my-1" href="#item-3-2"> User StoryBoard </a> -->
+                    </nav>
+
+                    <a class="nav-link" href="#item-4">REDESIGN</a>
+                    <nav class="nav nav-pills flex-column">
+                        <!-- <a class="nav-link ml-3 my-1" href="#item-4-1"> Site Map</a>
+                        <a class="nav-link ml-3 my-1" href="#item-4-2"> Navigation </a>
+                        <a class="nav-link ml-3 my-1" href="#item-4-4"> Style </a>
+                        <a class="nav-link ml-3 my-1" href="#item-4-5"> New Logo </a> -->
+                    </nav>
+
+                    <a class="nav-link" href="#item-5">ITERATIONS</a>
+                    <nav class="nav nav-pills flex-column">
+                        <!-- <a class="nav-link ml-3 my-1" href="#item-5-1"> LoFi Prototype</a>
+                        <a class="nav-link ml-3 my-1" href="#item-5-2"> 1st Round of Iterations</a>
+                        <a class="nav-link ml-3 my-1" href="#item-5-3"> 2nd Round of Iterations</a> -->
+                    </nav>
+
+                    <a class="nav-link" href="#item-6">FINAL PROTOTYPE</a>
+                    <nav class="nav nav-pills flex-column">
+                        <!-- <a class="nav-link ml-3 my-1" href="#item-6-1"> SITE MAP</a>
+                        <a class="nav-link ml-3 my-1" href="#item-6-2"> USER FLOW </a> -->
+                    </nav>
+
+                    <a class="nav-link" href="#item-7">CONCLUSION</a>
+                    <nav class="nav nav-pills flex-column">
+                        <!-- <a class="nav-link ml-3 my-1" href="#item-7-1"> Future Opportunities</a>
+                        <a class="nav-link ml-3 my-1" href="#item-7-2"> Reflections </a>
+                        <a class="nav-link ml-3 my-1" href="#item-7-3">  </a> -->
+                    </nav>
+
+                </nav>
+            </nav>
+        </div>
+        <div class="flexContent">
+            <div id="spyMe" data-offset="0">
+
+                <!-- Use Bootstrap 4’s JUMBOTRON component -->
+
+                <section id="item-1">
+                    <div class="jumbotron jumboImages">
+                        <div class="jumboImage" id="heroDesk"> <img style="width: 75%;"
+                                src="images20/DeskMobileHERO.png">
+                        </div>
+                    </div>
+
+                    <div class="jumbotron">
+
+                        <div class="jumboCopy">
+                            <h1 class="title display-4">H.E.R.O for Children</h1>
+                            <h2 class="lead subhead">A Non-Profit Website ReDesign</h2>
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- Use BOOTSTRAP 4's COL SYSTEM + CARDS -->
+                <section id="item-1">
+                    <hr class="titlehrtop">
+                    <h1 class="sectionTitle">INTRODUCTION</h1>
+                    <hr class="titlehrbottom">
+                </section>
+
+                <section id="item-1-1">
+                    <h2 class="sectionHead">OVERVIEW</h2>
+                    <hr class="my-4">
+
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3">
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">TEAM</h5>
+                                    <div class="card-body">
+                                        <p class="card-text">Tu Pham <br> Paige Welch <br> Christine Bains</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">DURATION</h5>
+                                    <div class="card-body">
+                                        <p class="card-text">June 9-June 28, 2022 <br> 3 weeks</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">ROLE</h5>
+                                    <div class="card-body">
+                                        <p class="card-text">UX/UI Designers</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card text-center">
+                        <div class="card h-100">
+                            <h5 class="card-header"> TOOLS</h5>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col"> <img style="height:70px;" ; src="images20/gforms.png"> </div>
+                                    <div class="col"> <img style="height:70px;" ; src="images20/gdoc.png"> </div>
+                                    <div class="col"> <img style="height:70px;" ; src="images20/miro.png"> </div>
+                                    <div class="col"> <img style="height:70px;" ; src="images20/figma.png"> </div>
+                                    <div class="col"> <img style="height:70px;" ; src="images20/ps.png"> </div>
+                                    <div class="col"> <img style="height:70px;" ; src="images20/ai.png"> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="item-1-2">
+                    <h2 class="sectionHead">ABOUT H.E.R.O.</h2>
+                    <hr class="my-4">
+                    <p>H.E.R.O for Children is an amazing non-profit organization that is focused on improving the
+                        quality
+                        of life
+                        for children affected by/ infected with HIV/AIDS through enriching programs, unforgettable
+                        experiences, and connections with the community. Founded in 2003 by two University of Georgia
+                        graduates, H.E.R.O. currently serves more than 350 kids with the help of more than 250
+                        volunteers.
+                    </p>
+                </section>
+
+                <section id="item-1-3">
+                    <h2 class="sectionHead">THE PROBLEM</h2>
+                    <hr class="my-4">
+                    <p>The H.E.R.O. for Children website was designed to provide resources and supports for caregivers
+                        focused on Quality of Life care for children with HIV/AIDS. However, due to inconsistent and
+                        confusing navigation and cluttered, text-heavy, non-welcoming pages, the current website is
+                        failing to provide information to its users in a way that was easy-to-find and easy-to-absorb
+                        which is
+                        causing target audiences to lose trust in the organization. </p>
+                </section>
+
+                <section id="item-1-4">
+                    <h2 class="sectionHead">THE GOAL</h2>
+                    <hr class="my-4">
+                    <p>The main goal of the redesign was to improve the H.E.R.O. website by improving the visual design
+                        and organization of website information so that people who wish to utilize the resources or
+                        support the cause will have an easier time navigating the website and enjoy an overall better
+                        user experience.</p>
+                </section>
+
+                <section id="item-2">
+                    <hr class="titlehrtop">
+                    <h1 class="sectionTitle">RESEARCH</h1>
+                    <hr class="titlehrbottom">
+                </section>
+
+                <section id="item-2-1">
+                    <h2 class="sectionHead">OBJECTVES</h2>
+                    <hr class="my-4">
+                    <div class="row justify-content-around">
+                        <div class="col-4">
+                            <p> Understand user’s thoughts and habits around donating </p>
+                        </div>
+                        <div class="col-4">
+                            <p> Understand user’s thoughts and habits around volunteering </p>
+                        </div>
+                        <div class="col-4">
+                            <p> Understand design elements that may impact the user’s decisions to volunteer and/or
+                                donate
+                            </p>
+                        </div>
+
+
+                </section>
+
+
+                <!-- Use BOOTSTRAP 4's COL SYSTEM -->
+                <section id="item-2-2">
+                    <h2 class="sectionHead">KEY INSIGHTS</h2>
+                    <hr class="my-4">
+                    <p>Interviewed 6 people and surveyed 15 people...these quotes embodied the key insights found</p>
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3">
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <img src="images20/paul351.png" class="card-img-top">
+                                    <h5 class="card-header">Paul, age 35</h5>
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <img src="images20/neal401.png" class="card-img-top">
+                                    <h5 class="card-header">Neal, age 40</h5>
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <img src="images20/kathy661.png" class="card-img-top">
+                                    <h5 class="card-header">Kathy, age 66</h5>
+                                </div>
+                            </div>
+
+                </section>
+
+                <!-- Use BOOTSTRAP 4's CARD component-->
+                <section id="item-2-3">
+                    <h2 class="sectionHead">COMPETITOR ANALYSIS</h2>
+                    <hr class="my-4">
+                    <p>Competitor Analysis were performed on the following organizations</p>
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3">
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <img src="images20/heroglobal.png" class="card-img-top">
+                                    <h5 class="card-header">Health and Education Relief Org</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-bodyS">STRENGTH</h5>
+                                        <p class="card-text"> positive volunteer testimonials, responsive website,
+                                            clean/neat look, consistent navigation, breadcrumbs </p>
+                                        <hr class="my-4">
+                                        <h5 class="card-bodyW">WEAKNESS</h5>
+                                        <p class="card-text">banner picture transitions are not smooth </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <img src="images20/kca.png" class="card-img-top">
+                                    <h5 class="card-header">Keep a Child Alive (KCA)</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-bodyS">STRENGTH</h5>
+                                        <p class="card-text">Alicia Keys is a co-founder, looks to be large
+                                            organization, hero image/video, well organized and professional </p>
+                                        <hr class="my-4">
+                                        <h5 class="card-bodyW">WEAKNESS</h5>
+                                        <p class="card-text"> No breadcrumbs</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <img src="images20/stJude.png" class="card-img-top">
+                                    <h5 class="card-header">St. Jude Children's Hospital</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-bodyS">STRENGTH</h5>
+                                        <p class="card-text"> hero image/ video is impactful, breadcrumbs on every
+                                            webpage, all info is well labeled & categorized </p>
+                                        <hr class="my-4">
+                                        <h5 class="card-bodyW">WEAKNESS</h5>
+                                        <p class="card-text">very overwhelming drop down menus</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Use BOOTSTRAP 4's JumboTron component -->
+                <section id="item-3">
+                    <hr class="titlehrtop">
+                    <h1 class="sectionTitle">DEFINITION</h1>
+                    <hr class="titlehrbottom">
+                </section>
+
+                <section id="item-3-1">
+                    <h2 class="sectionHead">USER PERSONA</h2>
+                    <hr class="my-4">
+                    <p>Insights from our research were used to define a user persona: DIANE MURPHY, a
+                        grandmother/guardian of a 6-yr-old KATE who is infected with HIV/AIDS.</p>
+                    <div class="jumbotron jumboImages">
+                        <div class="jumboImage"> <img style="width: 85%;" src="images20/PERSONA2.jpeg">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="item-3-2">
+                    <h2 class="sectionHead">USER STORYBOARD</h2>
+                    <hr class="my-4">
+                    <p>The proposed designs will ease the struggles of our user persona, Diane Murphy, making it easier
+                        for her to navigate the HERO’ website with confidence, whether to register Kate for HERO’s
+                        event/program or support the organization by volunteering/donating. </p>
+                    <div class="jumbotron jumboImages">
+                        <div class="jumboImage"> <img style="width: 85%;" src="images20/Storyboard2.jpeg">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="item-4">
+                    <hr class="titlehrtop">
+                    <h1 class="sectionTitle">REDESIGN</h1>
+                    <hr class="titlehrbottom">
+                </section>
+
+
+                <section id="item-4-1">
+                    <h2 class="sectionHead">SITE MAP</h2>
+                    <hr class="my-4">
+                    <p>Through card-sorting, a new site map for the HERO’s webpage was created...</p>
+                    <div class="jumbotron jumboImages">
+                        <div class="jumboImage"> <img style="width: 85%;" src="images20/siteMap2.png">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="item-4-2">
+                    <h2 class="sectionHead">NAVIGATION</h2>
+                    <hr class="my-4">
+                    <p>...which led to a more organized and simplified navigation system for the whole website.
+                    </p>
+                    <div class="jumbotron jumboImages">
+                        <div class="jumboImage"> <img style="width: 85%;" src="images20/navsys2.png">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="item-4-3">
+                    <h2 class="sectionHead">STYLE</h2>
+                    <hr class="my-4">
+                    <p>Since the focus of the HERO for Children organization is CHILDREN, we want a give the website a
+                        more youthful, playful appearance. <br>
+                        We do this through the use of bright colors and images, cute/fun graphics, and bold- playful
+                        typography.
+                    </p>
+                    <div class="jumbotron jumboImages">
+                        <div class="jumboImage"> <img style="width: 85%;" src="images20/herostyle.png">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="item-4-4">
+                    <h2 class="sectionHead">NEW LOGO</h2>
+                    <hr class="my-4">
+                    <p>For the LOGO, we feel it doesn’t stand out as it should… so we and opt for a more playful font.
+                        And changed the typical red ribbon into a HEART to reflect the organization’s name “ Hearts
+                        Everywhere Reaching Out” for Children. <br> We also added a micro-interaction for an element of
+                        delight…when you hover over the logo, a trail of hearts will appear</p>
+                    <div class="jumbotron jumboImages">
+                        <div class="jumboImage"> <img style="width: 85%;" src="images20/herologo.png">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="item-5">
+                    <hr class="titlehrtop">
+                    <h1 class="sectionTitle">ITERATIONS</h1>
+                    <hr class="titlehrbottom">
+                </section>
+
+                <section id="item-5-1">
+                    <h2 class="sectionHead">LOFIDELITY PROTOTYPE</h2>
+                    <hr class="my-4">
+                    <p>Through LoFidelity prototyping, we design the structures of the pages. </p>
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3">
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">HOMEPAGE</h5>
+                                    <img src="images20/heroHome.png" class="card-img-top">
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">MISSION PAGE</h5>
+                                    <img src="images20/heroMission.png" class="card-img-top">
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">VOLUNTEER OPPORTUNITIES</h5>
+                                    <img src="images20/herovOpp.png" class="card-img-top">
+                                </div>
+                            </div>
+
+                </section>
+
+                <section id="item-5-2">
+                    <h2 class="sectionHead">1ST ROUND OF ITERATIONS </h2>
+                    <hr class="my-4">
+                    <p> Iterations made based on usability testings with the LoFidelity PROTOTYPE include: redesigned
+                        logo,increasing navigation tab font size, freezing of the main navigation bar while scrolling
+                        giving the user a constant access of the main navigation, and color coded events on the calendar
+                        and cards .
+                    </p>
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3">
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">HOMEPAGE</h5>
+                                    <img src="images20/heroHome2.png" class="card-img-top">
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">MISSION PAGE</h5>
+                                    <img src="images20/heroMission2.png" class="card-img-top">
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">VOLUNTEER OPPORTUNITIES</h5>
+                                    <img src="images20/herovOpp2.png" class="card-img-top">
+                                </div>
+                            </div>
+                </section>
+
+                <section id="item-5-3">
+                    <h2 class="sectionHead">2ND ROUND OF ITERATIONS </h2>
+                    <hr class="my-4">
+                    <p> 2nd round of ITERATIONS made based on feedbacks + suggestions from HiFidelity TESTING include:
+                        Utilizing “Read more” function to make the huge amount of text less intimidating,
+                        increase main body font size + graphics for easy reading + scanning,
+                        using same style graphics for a more cohesive look throughout the whole webpage, and
+                        the use of fictional whole names instead of initials to make the children’s stories more real.
+                    </p>
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3">
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">HOMEPAGE</h5>
+                                    <img src="images20/heroHome3.png" class="card-img-top">
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">MISSION PAGE</h5>
+                                    <img src="images20/heroMission3.png" class="card-img-top">
+                                </div>
+                            </div>
+
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <h5 class="card-header">VOLUNTEER OPPORTUNITIES</h5>
+                                    <img src="images20/herovOpp3.png" class="card-img-top">
+                                </div>
+                            </div>
+
+                </section>
+
+
+                <section id="item-6">
+                    <hr class="titlehrtop">
+                    <h1 class="sectionTitle">FINAL PROTOTYPE</h1>
+                    <hr class="titlehrbottom">
+                </section>
+
+                <section>
+                    <div class="jumbotron jumboImages">
+                        <div class="jumboImage" id="herofinal"> <img style="width: 85%;" src="images20/herofinal.png">
+                        </div>
+                    </div>
+                    <div class="jumbotron jumbolink">
+                        <a class="button btnfigma"
+                            href="https://www.figma.com/proto/Yy25cXk07PmY8zkNAhw5y1/Tu's-PJ?node-id=162%3A10518&scaling=scale-down&page-id=162%3A8262&starting-point-node-id=162%3A11639"
+                            role="button">VIEW FIGMA PROTOTYPE</a>
+                    </div>
+
+                </section>
+
+                <section id="item-7">
+                    <hr class="titlehrtop">
+                    <h1 class="sectionTitle">CONCLUSION</h1>
+                    <hr class="titlehrbottom">
+                </section>
+
+                <section id="item-7-1">
+                    <h2 class="sectionHead">FUTURE OPPORTUNITIES</h2>
+                    <hr class="my-4">
+                    <p>We would like to implement additional design changes based on A/B user test findings and
+                        feedbacks,
+                        then follow-up with additional user testings and responsive design testings focused on
+                        mobile/tablet format.
+                        We would also like to connect with stakeholders for additional background knowledge
+                        in an effort to update content with current statistics and events.</p>
+                </section>
+
+                <section id="item-7-2">
+                    <h2 class="sectionHead">REFLECTION</h2>
+                    <hr class="my-4">
+                    <p>H.E.R.O for Children is an amazing non-profit organization and
+                        I am very grateful for the opportunity to work on this project
+                        to assist the organization in serving often overlooked
+                        population-children who are affected by HIV/AIDS. </p>
+                </section>
+
+
+                <section id="item-7-3">
+                    <h2 class="sectionHead"></h2>
+                    <hr class="my-4">
+                    <p> </p>
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="footerText"> © 2022 All Rights Reserved </div>
+        <div>
+            <img id="footbg" src="images20/footerlines.svg">
+        </div>
+
+
+        <footer class="footerBlock">
+            <ul>
+                <li id="bē" class="inline-block"> <img src="images20/bē.svg"></li>
+                <li id="linkedin" class="inline-block"> <img src="images20/linkedIn.svg"></li>
+                <li id="github" class="inline-block"> <img src="images20/github.svg"> </li>
+                <li id="emailMe" class="inline-block"> <button class="button"
+                        onclick="document.location =  'mailto:thanh2pham@gmail.com'">EMAIL ME </button> </li>
+
+            </ul>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

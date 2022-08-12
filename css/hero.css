@@ -1,0 +1,304 @@
+body {
+    background-color: #365067;
+    padding-bottom: 0px;
+    height: 100%;
+    position: relative;
+}
+
+.button {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFCBF0;
+    background-color: #142F46;
+    border: 3px solid #FFFFFF;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: auto;
+    margin: 10px 0px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: #A43E87;
+    color: white;
+    transform: scale(1.2);
+}
+
+button.glowBtn {
+    color: white;
+    transform: scale(1.2);
+    background: #40629B;
+    border: 5px solid #FFFFFF;
+    box-shadow: 5px 5px 5px rgba(252, 251, 251, 0.5);
+}
+
+ul {
+    margin-bottom: 0%;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* FOOTER  */
+#footbg {
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    z-index: 90;
+}
+
+.footerBlock {
+    position: fixed;
+    right: 5%;
+    bottom: 0%;
+    z-index: 120;
+    margin-bottom: 0%;
+}
+
+.footerText {
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 11px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 200;
+    position: fixed;
+    bottom: 0%;
+    left: 40%;
+}
+
+#bē:hover {
+    transform: scale(1.2);
+}
+
+#linkedin:hover {
+    transform: scale(1.2);
+}
+
+#github:hover {
+    transform: scale(1.2);
+}
+
+img.logo:hover {
+    transform: scale(1.2);
+}
+
+/* HEADER */
+.navbg {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 90;
+}
+
+img.logo {
+    position: fixed;
+    right: 74.28%;
+    top: 0%;
+    bottom: 0.74%;
+    z-index: 130;
+}
+
+img.menu {
+    position: fixed;
+    right: 7%;
+    top: 2%;
+    z-index: 130;
+    display: none;
+}
+
+nav.inline-block {
+    position: fixed;
+    right: 5%;
+    top: 0%;
+    z-index: 120;
+    width: auto;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        width: 20%;
+    }
+
+    .headerbtn {
+        display: none;
+    }
+
+    img.menu {
+        display: block;
+    }
+
+
+}
+
+.title {
+    font-family: 'Yusei Magic';
+    font-size: 80px;
+    text-align: center;
+    color: #f8f5f5;
+}
+
+h1 {
+    font-family: 'Yusei Magic';
+    font-size: 90px;
+    text-align: center;
+    color: #f8f5f5;
+}
+
+
+.subhead {
+    font-family: 'Yusei Magic';
+    font-size: 24px;
+    text-align: center;
+    color: #FFCBF0;
+}
+
+p {
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.jumboImage {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #365067;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    background-color:#365067;
+    /* width: 0px; */
+
+}
+.titlehrtop{
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+    border-top: 2px solid white;
+}
+.titlehrbottom{
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-top: 2px solid white;
+}
+
+.flexBox {
+    display: flex;
+    background-color: #365067;
+}
+
+.flexNav {
+    position: fixed;
+    width: 250px;
+    margin-top: 160px;
+    background-color: #365067;
+}
+
+.flexContent {
+    margin-left: 270px;
+    margin-right: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+#spyMe {
+    position: relative;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.card {
+    border: 1px solid #FFCBF0;
+}
+
+.card.text-center {
+    margin: 15px;
+}
+
+.card-header {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #142F46;
+}
+
+.card-body {
+    background-color: #fefefe;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.card-bodyS{
+    text-align: center;
+    color: green;
+}
+.card-bodyW{
+    text-align: center;
+    color: red;
+}
+.card-text {
+    color: #0f010b;
+}
+
+.sectionHead {
+    font-family: 'Yusei Magic';
+    font-size: 30px;
+    text-align: center;
+    color: #FFCBF0;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+.sectionTitle {
+    font-family: 'Yusei Magic';
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+section {
+    padding-top: 75px;
+}
+.objList{
+    background-color: #365067;
+    /* position: relative;
+    display: block; */
+    /* padding: 0.75rem 1.25rem; */
+ 
+}
