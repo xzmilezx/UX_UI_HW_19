@@ -1,10 +1,10 @@
 $('body').scrollspy({ target: '#navbar-example3' })
 // document.getElementById('spyMe').scrollspy({ target: '#navbar-example3' });
 
-$grid-columns:      12;
-$grid-gutter-width: 30px;
+$grid - columns: 12;
+$grid - gutter - width: 30px;
 
-$grid-breakpoints: (
+$grid - breakpoints: (
   // Extra small screen / phone
   xs: 0,
   // Small screen / phone
@@ -17,7 +17,7 @@ $grid-breakpoints: (
   xl: 1200px
 );
 
-$container-max-widths: (
+$container - max - widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
